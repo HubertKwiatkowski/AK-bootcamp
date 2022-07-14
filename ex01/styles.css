@@ -1,0 +1,17 @@
+.header {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+}
+
+section {
+  width: 300px;
+  height: 200px;
+  background-color: red
+}
+
+.about-me {
+  width: 250px;
+  height: 500px;
+  background-color: blue;
+}
