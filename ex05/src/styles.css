@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-circle {
+  background-color: lightblue;
+  z-index: 3;
+}
+
+.second-circle {
+  background-color: cornflowerblue;
+  margin-top: -100px;
+  z-index: 2;
+}
+
+.third-circle {
+  background-color: blue;
+  margin-top: -100px;
+  z-index: 1;
+}
+
+.fourth-circle {
+  background-color: darkblue;
+  margin-top: -100px;
+}
