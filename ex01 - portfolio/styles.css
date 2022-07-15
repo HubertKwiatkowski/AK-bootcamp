@@ -72,6 +72,17 @@ section {
   margin: 30px;
 }
 
+@media only screen and (max-width: 700px) {
+  .hero-image {
+    max-width: 700px;
+  }
+
+  .hero-image {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
 .styled-break {
   width: 30px;
   height: 5px;
@@ -118,8 +129,35 @@ section {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
 }
 
+form {
+  margin: 0 0 40px 0;
+}
+
+.input-section {
+  margin: 20px 0;
+  display: flex;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px 0 0;
+}
+
 footer {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    background-color: aqua;
+  }
+}
+
+.fa-regular {
+  margin: 3px;
 }
 
 a {
