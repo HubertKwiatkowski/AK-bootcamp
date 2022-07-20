@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  width: 350px;
+  height: 200px;
+  background-color: palevioletred;
+  border-radius: 30px;
+  border: solid purple 10px;
+}
